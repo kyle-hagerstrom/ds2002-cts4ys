@@ -1,0 +1,8 @@
+services:
+  my-container:
+    image: iss-loc
+    continer_name: iss-loc
+    volumes:
+      - type: bind
+      source: 
+      target: /data
